@@ -1,0 +1,7 @@
+package com.example.demo.service;
+
+import com.example.demo.entity.Patient;
+
+public interface PatientService {
+  public void savePatientInDb(Patient p); 
+}
